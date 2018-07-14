@@ -1,0 +1,26 @@
+{
+  "name": "garter-snake",
+  "version": "1.0.0",
+  "description": "A tiny proxy server to proxy requests for my hackathon app to hydra services - specifically mvs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamglang/Garter-Snake.git"
+  },
+  "author": "Adam G Lang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamglang/Garter-Snake/issues"
+  },
+  "homepage": "https://github.com/adamglang/Garter-Snake#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nano-fs": "^1.2.4",
+    "node-fetch": "^2.1.2",
+    "querystring": "^0.2.0"
+  }
+}
